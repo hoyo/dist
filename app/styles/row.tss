@@ -1,0 +1,41 @@
+"#row": {
+  height: "130dp"
+}
+
+"#background": {
+  height: Ti.UI.FILL,
+  width: Ti.UI.FILL
+}
+
+"View": {
+  backgroundGradient:{
+    type: "linear",
+    startPoint: {x: 0, y: 0},
+    endPoint: {x: 0, y: "100%"},
+    colors: [
+      {color: "#9000", offset: 0.0},
+      {color: "#7000", offset: 0.7},
+      {color: "#0000", offset: 1.0}
+    ]
+  },
+  height: "50dp",
+  top: 0,
+  width: Ti.UI.FILL
+}
+
+"#title": {
+  color: "#fff",
+  font: {fontSize: "14dp"},
+  left: "15dp",
+  top: "10dp",
+  width: Ti.UI.FILL
+}
+
+"#subtitle": {
+  color: "#fff",
+  font: {fontSize: "14dp"},
+  right: "15dp",
+  textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+  top: "10dp",
+  width: Ti.UI.FILL
+}

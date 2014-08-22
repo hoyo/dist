@@ -1,0 +1,16 @@
+<Alloy>
+  <TabGroup id="index">
+    <Tab id="tab1">
+      <Window id="win1">
+        <TableView id="table"/>
+      </Window>
+    </Tab>
+    <Tab id="tab2">
+      <Window id="win2">
+        <Module id="map" module="ti.map">
+          <Annotation id="ictco"/>
+        </Module>
+      </Window>
+    </Tab>
+  </TabGroup>
+</Alloy>

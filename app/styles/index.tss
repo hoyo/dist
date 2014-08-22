@@ -1,0 +1,50 @@
+"#tabgroup": {
+  backgroundColor: "#fff",
+  barColor: "#eee",
+  navTintColor: "#aaa"
+}
+
+"#tab1": {
+  activeIcon: "home-active.png",
+  icon: "home.png",
+  title: "イベント"
+}
+
+"#tab2": {
+  activeIcon: "map-active.png",
+  icon: "map.png",
+  title: "会場"
+}
+
+"Window": {
+  includeOpaqueBars: true,
+  extendEdges: [Ti.UI.EXTEND_EDGE_BOTTOM],
+  titleAttributes: {color: "#555"},
+  translucent: false
+}
+
+"#win1": {
+  title: "DIST"
+}
+
+"#win2": {
+  title: "会場アクセス"
+}
+
+"#map": {
+  mapType: Alloy.Globals.Map.NORMAL_TYPE,
+  region: {
+    latitude: 35.706619,
+    longitude: 139.663334,
+    latitudeDelta: 0.006,
+    longitudeDelta: 0.006
+  }
+}
+
+"#ictco": {
+  latitude: 35.707619,
+  longitude: 139.662334,
+  title: "ICTCO (イクトコ)",
+  subtitle: "東京都中野区中野4-10-1 (NAKANO CENTRAL PARK EAST 1F)",
+  pincolor: Alloy.Globals.Map.ANNOTATION_RED
+}
