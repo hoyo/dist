@@ -49,7 +49,7 @@
       <uses-permission android:name="com.hoyosta.dist.permission.MAPS_RECEIVE"/>
       <permission android:name="com.hoyosta.dist..permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
       <application android:theme="@style/Theme.AppCompat.Light">
-        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDfqXm1PIVdeil28q30U7YHSzqN6bfdrcI"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="[input your google api key]"/>
       </application>
     </manifest>
   </android>
